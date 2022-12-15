@@ -1,0 +1,7 @@
+tap "heroku/brew"
+tap "homebrew/bundle"
+tap "homebrew/core"
+tap "mongodb/brew"
+brew "cocoapods"
+brew "libffi"
+brew "rbenv"
