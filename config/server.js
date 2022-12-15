@@ -1,11 +1,11 @@
 import path from "path"
 
 // config used by server side only
-const dbHost = process.env.DB_HOST || "127.0.0.1"
+const dbHost = process.env.DB_HOST || "mongodb+srv://db-mongodb-sfo3-34796-b99cbd42.mongo.ondigitalocean.com"
 const dbPort = process.env.DB_PORT || 27017
-const dbName = process.env.DB_NAME || "sartar"
-const dbUser = process.env.DB_USER || ""
-const dbPass = process.env.DB_PASS || ""
+const dbName = process.env.DB_NAME || "admin"
+const dbUser = process.env.DB_USER || "doadmin"
+const dbPass = process.env.DB_PASS || "83i9eRuXN6qJ0752"
 const dbCred =
   dbUser.length > 0 || dbPass.length > 0 ? `${dbUser}:${dbPass}@` : ""
 
