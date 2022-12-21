@@ -147,7 +147,7 @@
     "passport-local-mongoose": "^4.4.0",
     "postcss-loader": "^4.1.0",
     "prop-types": "^15.6.2",
-    "query-string": "^6.1.0",
+    "query-string": "^8.1.0",
     "react": "^17.0.1",
     "react-chartjs-2": "^2.7.4",
     "react-dom": "^16.4.2",
